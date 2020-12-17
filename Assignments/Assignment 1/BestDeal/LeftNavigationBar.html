@@ -1,0 +1,100 @@
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
+  
+  <div class="w3-container w3-display-container w3-padding-16">
+    <i onclick="closeSideBar()" class="fa fa-remove w3-hide-large w3-button w3-display-topright">close</i>
+    <h3 class="w3-wide"><b>BestDeal</b></h3>
+  </div>
+  
+  <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
+    
+	<a onclick="showSubList('tvList');" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="navBtn1">TV<i class="fa fa-caret-down"></i></a>
+	<div id="tvList" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+      <a href="TVList?maker=samsung" class="w3-bar-item w3-button">Samsung</a>
+      <a href="TVList?maker=sony" class="w3-bar-item w3-button">Sony</a>
+	  <a href="TVList?maker=lg" class="w3-bar-item w3-button">LG</a>
+    </div>
+	
+	<a onclick="showSubList('soundsystemList');" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="navBtn2">Sound Systems<i class="fa fa-caret-down"></i></a>
+	<div id="soundsystemList" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+      <a href="SoundSystemList?maker=bose" class="w3-bar-item w3-button">Bose</a>
+      <a href="SoundSystemList?maker=logitech" class="w3-bar-item w3-button">Logitech</a>
+	  <a href="SoundSystemList?maker=jbl" class="w3-bar-item w3-button">JBL</a>
+    </div>
+	
+	<a onclick="showSubList('phonesList');" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="navBtn3">Phones<i class="fa fa-caret-down"></i></a>
+	<div id="phonesList" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+      <a href="PhoneList?maker=samsung" class="w3-bar-item w3-button">Samsung</a>
+      <a href="PhoneList?maker=apple" class="w3-bar-item w3-button">Apple</a>
+	  <a href="PhoneList?maker=huawei" class="w3-bar-item w3-button">Huawei</a>
+    </div>
+	
+	<a onclick="showSubList('laptopsList');" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="navBtn4">Laptops<i class="fa fa-caret-down"></i></a>
+	<div id="laptopsList" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+      <a href="LaptopList?maker=hp" class="w3-bar-item w3-button">HP</a>
+      <a href="LaptopList?maker=apple" class="w3-bar-item w3-button">Apple</a>
+	  <a href="LaptopList?maker=microsoft" class="w3-bar-item w3-button">Microsoft</a>
+	  <a href="LaptopList?maker=dell" class="w3-bar-item w3-button">Dell</a>
+    </div>
+	
+	<a onclick="showSubList('voiceassistantList');" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="navBtn5">Voice Assistant<i class="fa fa-caret-down"></i></a>
+	<div id="voiceassistantList" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+      <a href="VoiceAssistantList?maker=google" class="w3-bar-item w3-button">Google</a>
+      <a href="VoiceAssistantList?maker=amazon" class="w3-bar-item w3-button">Amazon</a>
+    </div>
+	
+	<a onclick="showSubList('wearabletechnologyList');" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="navBtn6">Wearable Technology<i class="fa fa-caret-down"></i></a>
+	<div id ="wearabletechnologyList" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+		<a onclick="showSubList('fitnesswatchesSubList');" href="javascript:void(0)" class="w3-bar-item w3-button w3-block w3-white w3-left-align" id="navSubBtn1">Fitness Watches<i class="fa fa-caret-down"></i></a>
+		<div id="fitnesswatchesSubList" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+			<a href="AccessoryList?maker=fitbit&type=fitness watch" class="w3-bar-item w3-button">Fitbit</a>
+			<a href="AccessoryList?maker=huawei&type=fitness watch" class="w3-bar-item w3-button">Huawei</a>
+			<a href="AccessoryList?maker=xiaomi&type=fitness watch" class="w3-bar-item w3-button">Xiaomi</a>
+		</div>
+		
+		<a onclick="showSubList('smartwatchesSubList');" href="javascript:void(0)" class="w3-bar-item w3-button w3-block w3-white w3-left-align" id="navSubBtn1">Smart Watches<i class="fa fa-caret-down"></i></a>
+		<div id="smartwatchesSubList" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+			<a href="AccessoryList?maker=apple&type=smart watch" class="w3-bar-item w3-button">Apple</a>
+			<a href="AccessoryList?maker=samsung&type=smart watch" class="w3-bar-item w3-button">Samsung</a>
+			<a href="AccessoryList?maker=fossil&type=smart watch" class="w3-bar-item w3-button">Fossil</a>
+		</div>
+		
+		<a onclick="showSubList('headphonesSubList');" href="javascript:void(0)" class="w3-bar-item w3-button w3-block w3-white w3-left-align" id="navSubBtn1">Headphones<i class="fa fa-caret-down"></i></a>
+		<div id="headphonesSubList" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+			<a href="AccessoryList?maker=jbl&type=headphone" class="w3-bar-item w3-button">JBL</a>
+			<a href="AccessoryList?maker=sony&type=headphone" class="w3-bar-item w3-button">Sony</a>
+			<a href="AccessoryList?maker=beats&type=headphone" class="w3-bar-item w3-button">Beats</a>
+			<a href="AccessoryList?maker=bose&type=headphone" class="w3-bar-item w3-button">Bose</a>
+			
+		</div>
+		
+		<a onclick="showSubList('virtualrealitySubList');" href="javascript:void(0)" class="w3-bar-item w3-button w3-block w3-white w3-left-align" id="navSubBtn1">Virtual Reality<i class="fa fa-caret-down"></i></a>
+		<div id="virtualrealitySubList" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+			<a href="AccessoryList?maker=samsung&type=virtual reality" class="w3-bar-item w3-button">Samsung</a>
+			<a href="AccessoryList?maker=oculus&type=virtual reality" class="w3-bar-item w3-button">Oculus</a>
+			<a href="AccessoryList?maker=sony&type=virtual reality" class="w3-bar-item w3-button">Sony</a>
+			<a href="AccessoryList?maker=htc&type=virtual reality" class="w3-bar-item w3-button">HTC</a>
+		</div>
+		
+		<a onclick="showSubList('pettrackerSubList');" href="javascript:void(0)" class="w3-bar-item w3-button w3-block w3-white w3-left-align" id="navSubBtn1">Pet Tracker<i class="fa fa-caret-down"></i></a>
+		<div id="pettrackerSubList" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+			<a href="AccessoryList?maker=whistle&type=pet tracker" class="w3-bar-item w3-button">Whistle</a>
+			<a href="AccessoryList?maker=garmin&type=pet tracker" class="w3-bar-item w3-button">Garmin</a>
+		</div>
+		
+	</div>
+	
+  </div>
+
+</nav>
+
+<!-- Top menu on small screens -->
+<div class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+  <div class="w3-bar-item w3-padding-24 w3-wide">BestDeal</div>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="openSideBar()"><i class="fa fa-bars"></i></a>
+</div>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+

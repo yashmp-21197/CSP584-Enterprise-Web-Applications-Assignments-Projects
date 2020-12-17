@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ProductCatalog>
+	
+	<TVCatalog>
+		<TV id="q70t">
+			<name>Q70T</name>
+			<price>2699.99</price>
+			<image>q70t.jpg</image>
+			<manufacturer>Samsung</manufacturer>
+			<condition>New</condition>
+			<discount>10.0</discount>
+			<accessories>
+				<accessory>club_950nc</accessory>
+				<accessory>club_700bt</accessory>
+				<accessory>wh_1000xm4</accessory>
+				<accessory>studio_3</accessory>
+				<accessory>quiet_comfort_35</accessory>
+				<accessory>gear_vr</accessory>
+				<accessory>rift_s</accessory>
+				<accessory>quest</accessory>
+				<accessory>playstation_vr</accessory>
+				<accessory>vive_cosmos</accessory>
+			</accessories>
+		</TV>
+		<TV id="tu8000">
+			<name>TU8000</name>
+			<price>349.99</price>
+			<image>tu8000.jpg</image>
+			<manufacturer>Samsung</manufacturer>
+			<condition>New</condition>
+			<discount>10.0</discount>
+			<accessories>
+				<accessory>club_950nc</accessory>
+				<accessory>club_700bt</accessory>
+				<accessory>wh_1000xm4</accessory>
+				<accessory>studio_3</accessory>
+				<accessory>quiet_comfort_35</accessory>
+				<accessory>gear_vr</accessory>
+				<accessory>rift_s</accessory>
+				<accessory>quest</accessory>
+				<accessory>playstation_vr</accessory>
+				<accessory>vive_cosmos</accessory>
+			</accessories>
+		</TV>
+		<TV id="z9g">
+			<name>Z9G</name>
+			<price>7999.99</price>
+			<image>z9g.jpg</image>
+			<manufacturer>Sony</manufacturer>
+			<condition>New</condition>
+			<discount>10.0</discount>
+			<accessories>
+				<accessory>club_950nc</accessory>
+				<accessory>club_700bt</accessory>
+				<accessory>wh_1000xm4</accessory>
+				<accessory>studio_3</accessory>
+				<accessory>quiet_comfort_35</accessory>
+				<accessory>gear_vr</accessory>
+				<accessory>rift_s</accessory>
+				<accessory>quest</accessory>
+				<accessory>playstation_vr</accessory>
+				<accessory>vive_cosmos</accessory>
+			</accessories>
+		</TV>
+		<TV id="a9g">
+			<name>A9G</name>
+			<price>2299.99</price>
+			<image>a9g.jpg</image>
+			<manufacturer>Sony</manufacturer>
+			<condition>New</condition>
+			<discount>10.0</discount>
+			<accessories>
+				<accessory>club_950nc</accessory>
+				<accessory>club_700bt</accessory>
+				<accessory>wh_1000xm4</accessory>
+				<accessory>studio_3</accessory>
+				<accessory>quiet_comfort_35</accessory>
+				<accessory>gear_vr</accessory>
+				<accessory>rift_s</accessory>
+				<accessory>quest</accessory>
+				<accessory>playstation_vr</accessory>
+				<accessory>vive_cosmos</accessory>
+			</accessories>
+		</TV>
+		<TV id="nano99">
+			<name>NanoCell 99 Series</name>
+			<price>4299.99</price>
+			<image>nano99.jpg</image>
+			<manufacturer>LG</manufacturer>
+			<condition>New</condition>
+			<discount>10.0</discount>
+			<accessories>
+				<accessory>club_950nc</accessory>
+				<accessory>club_700bt</accessory>
+				<accessory>wh_1000xm4</accessory>
+				<accessory>studio_3</accessory>
+				<accessory>quiet_comfort_35</accessory>
+				<accessory>gear_vr</accessory>
+				<accessory>rift_s</accessory>
+				<accessory>quest</accessory>
+				<accessory>playstation_vr</accessory>
+				<accessory>vive_cosmos</accessory>
+			</accessories>
+		</TV>
+	</TVCatalog>
+	
+	<SoundSystemCatalog>
+		<SoundSystem id="ls650">
+			<name>Lifestyle 650</name>
+			<price>3999.99</price>
+			<image>ls650.jpg</image>
+			<manufacturer>Bose</manufacturer>
+			<condition>New</condition>
+			<discount>10.0</discount>
+		</SoundSystem>
+		<SoundSystem id="cq5dam">
+			<name>Surround Speakers</name>
+			<price>299.99</price>
+			<image>cq5dam.jpg</image>
+			<manufacturer>Bose</manufacturer>
+			<condition>New</condition>
+			<discount>10.0</discount>
+		</SoundSystem>
+		<SoundSystem id="z906">
+			<name>Z906 5.1</name>
+			<price>399.99</price>
+			<image>z906.jpg</image>
+			<manufacturer>Logitech</manufacturer>
+			<condition>New</condition>
+			<discount>10.0</discount>
+		</SoundSystem>
+		<SoundSystem id="z606">
+			<name>Z606 5.1</name>
+			<price>129.99</price>
+			<image>z606.jpg</image>
+			<manufacturer>Logitech</manufacturer>
+			<condition>New</condition>
+			<discount>10.0</discount>
+		</SoundSystem>
+		<SoundSystem id="bar_5.1">
+			<name>Bar 5.1</name>
+			<price>499.99</price>
+			<image>bar_5.1.jpg</image>
+			<manufacturer>JBL</manufacturer>
+			<condition>New</condition>
+			<discount>10.0</discount>
+		</SoundSystem>
+	</SoundSystemCatalog>
+	
+	<PhoneCatalog>
+		<Phone id="galaxy_note20_5g">
+			<name>Galaxy Note20 5G</name>
+			<price>999.99</price>
+			<image>galaxy_note20_5g.jpg</image>
+			<manufacturer>Samsung</manufacturer>
+			<condition>New</condition>
+			<discount>10.0</discount>
+			<accessories>
+				<accessory>inspire_2</accessory>
+				<accessory>ace_2</accessory>
+				<accessory>fit</accessory>
+				<accessory>gt_2_pro</accessory>
+				<accessory>mi_band_5</accessory>
+				<accessory>series_5</accessory>
+				<accessory>series_3</accessory>
+				<accessory>galaxy</accessory>
+				<accessory>galaxy_3</accessory>
+				<accessory>gen_5</accessory>
+				<accessory>club_950nc</accessory>
+				<accessory>club_700bt</accessory>
+				<accessory>wh_1000xm4</accessory>
+				<accessory>studio_3</accessory>
+				<accessory>quiet_comfort_35</accessory>
+				<accessory>go_explore</accessory>
+				<accessory>go</accessory>
+				<accessory>alpha_100</accessory>
+				<accessory>tt_15</accessory>
+				<accessory>t_5</accessory>
+			</accessories>
+
+		</Phone>
+		<Phone id="iphone_xs_max">
+			<name>iPhone XS Max</name>
+			<price>999.99</price>
+			<image>iphone_xs_max.jpg</image>
+			<manufacturer>Apple</manufacturer>
+			<condition>New</condition>
+			<discount>10.0</discount>
+			<accessories>
+				<accessory>inspire_2</accessory>
+				<accessory>ace_2</accessory>
+				<accessory>fit</accessory>
+				<accessory>gt_2_pro</accessory>
+				<accessory>mi_band_5</accessory>
+				<accessory>series_5</accessory>
+				<accessory>series_3</accessory>
+				<accessory>galaxy</accessory>
+				<accessory>galaxy_3</accessory>
+				<accessory>gen_5</accessory>
+				<accessory>club_950nc</accessory>
+				<accessory>club_700bt</accessory>
+				<accessory>wh_1000xm4</accessory>
+				<accessory>studio_3</accessory>
+				<accessory>quiet_comfort_35</accessory>
+				<accessory>gear_vr</accessory>
+				<accessory>rift_s</accessory>
+				<accessory>quest</accessory>
+				<accessory>playstation_vr</accessory>
+				<accessory>vive_cosmos</accessory>
+				<accessory>go_explore</accessory>
+				<accessory>go</accessory>
+				<accessory>alpha_100</accessory>
+				<accessory>tt_15</accessory>
+				<accessory>t_5</accessory>
+			</accessories>
+
+		</Phone>
+		<Phone id="iphone_11_pro">
+			<name>iPhone 11 Pro</name>
+			<price>999.99</price>
+			<image>iphone_11_pro.jpg</image>
+			<manufacturer>Apple</manufacturer>
+			<condition>New</condition>
+			<discount>10.0</discount>
+			<accessories>
+				<accessory>inspire_2</accessory>
+				<accessory>ace_2</accessory>
+				<accessory>fit</accessory>
+				<accessory>gt_2_pro</accessory>
+				<accessory>mi_band_5</accessory>
+				<accessory>series_5</accessory>
+				<accessory>series_3</accessory>
+				<accessory>galaxy</accessory>
+				<accessory>galaxy_3</accessory>
+				<accessory>gen_5</accessory>
+				<accessory>club_950nc</accessory>
+				<accessory>club_700bt</accessory>
+				<accessory>wh_1000xm4</accessory>
+				<accessory>studio_3</accessory>
+				<accessory>quiet_comfort_35</accessory>
+				<accessory>go_explore</accessory>
+				<accessory>go</accessory>
+				<accessory>alpha_100</accessory>
+				<accessory>tt_15</accessory>
+				<accessory>t_5</accessory>
+			</accessories>
+
+		</Phone>
+		<Phone id="p40">
+			<name>P40</name>
+			<price>759.99</price>
+			<image>p40.jpg</image>
+			<manufacturer>Huawei</manufacturer>
+			<condition>New</condition>
+			<discount>10.0</discount>
+			<accessories>
+				<accessory>inspire_2</accessory>
+				<accessory>ace_2</accessory>
+				<accessory>fit</accessory>
+				<accessory>gt_2_pro</accessory>
+				<accessory>mi_band_5</accessory>
+				<accessory>series_5</accessory>
+				<accessory>series_3</accessory>
+				<accessory>galaxy</accessory>
+				<accessory>galaxy_3</accessory>
+				<accessory>gen_5</accessory>
+				<accessory>club_950nc</accessory>
+				<accessory>club_700bt</accessory>
+				<accessory>wh_1000xm4</accessory>
+				<accessory>studio_3</accessory>
+				<accessory>quiet_comfort_35</accessory>
+				<accessory>go_explore</accessory>
+				<accessory>go</accessory>
+				<accessory>alpha_100</accessory>
+				<accessory>tt_15</accessory>
+				<accessory>t_5</accessory>
+			</accessories>
+
+		</Phone>
+		<Phone id="p30_pro">
+			<name>P30 Pro</name>
+			<price>728.99</price>
+			<image>p30_pro.jpg</image>
+			<manufacturer>Huawei</manufacturer>
+			<condition>New</condition>
+			<discount>10.0</discount>
+			<accessories>
+				<accessory>inspire_2</accessory>
+				<accessory>ace_2</accessory>
+				<accessory>fit</accessory>
+				<accessory>gt_2_pro</accessory>
+				<accessory>mi_band_5</accessory>
+				<accessory>series_5</accessory>
+				<accessory>series_3</accessory>
+				<accessory>galaxy</accessory>
+				<accessory>galaxy_3</accessory>
+				<accessory>gen_5</accessory>
+				<accessory>club_950nc</accessory>
+				<accessory>club_700bt</accessory>
+				<accessory>wh_1000xm4</accessory>
+				<accessory>studio_3</accessory>
+				<accessory>quiet_comfort_35</accessory>
+				<accessory>go_explore</accessory>
+				<accessory>go</accessory>
+				<accessory>alpha_100</accessory>
+				<accessory>tt_15</accessory>
+				<accessory>t_5</accessory>
+			</accessories>
+
+		</Phone>
+	</PhoneCatalog>
+	
+	<LaptopCatalog>
+		<Laptop id="spectre_x360">
+			<name>Spectre x360</name>
+			<price>1199.99</price>
+			<image>spectre_x360.jpg</image>
+			<manufacturer>HP</manufacturer>
+			<condition>New</condition>
+			<discount>10.0</discount>
+			<accessories>
+				<accessory>club_950nc</accessory>
+				<accessory>club_700bt</accessory>
+				<accessory>wh_1000xm4</accessory>
+				<accessory>studio_3</accessory>
+				<accessory>quiet_comfort_35</accessory>
+			</accessories>
+		</Laptop>
+		<Laptop id="pavilion_15">
+			<name>Pavilion 15-cw0017ca</name>
+			<price>419.99</price>
+			<image>pavilion_15.jpg</image>
+			<manufacturer>HP</manufacturer>
+			<condition>New</condition>
+			<discount>10.0</discount>
+			<accessories>
+				<accessory>club_950nc</accessory>
+				<accessory>club_700bt</accessory>
+				<accessory>wh_1000xm4</accessory>
+				<accessory>studio_3</accessory>
+				<accessory>quiet_comfort_35</accessory>
+			</accessories>
+		</Laptop>
+		<Laptop id="macbook-air">
+			<name>MacBook Air</name>
+			<price>999.99</price>
+			<image>macbook-air.jpg</image>
+			<manufacturer>Apple</manufacturer>
+			<condition>New</condition>
+			<discount>10.0</discount>
+			<accessories>
+				<accessory>club_950nc</accessory>
+				<accessory>club_700bt</accessory>
+				<accessory>wh_1000xm4</accessory>
+				<accessory>studio_3</accessory>
+				<accessory>quiet_comfort_35</accessory>
+			</accessories>
+
+		</Laptop>
+		<Laptop id="surface_3">
+			<name>Surface 3</name>
+			<price>1999.99</price>
+			<image>surface_3.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>10.0</discount>
+			<accessories>
+				<accessory>club_950nc</accessory>
+				<accessory>club_700bt</accessory>
+				<accessory>wh_1000xm4</accessory>
+				<accessory>studio_3</accessory>
+				<accessory>quiet_comfort_35</accessory>
+			</accessories>
+
+		</Laptop>
+		<Laptop id="xps_15">
+			<name>XPS 15 Laptop</name>
+			<price>1099.99</price>
+			<image>xps_15.jpg</image>
+			<manufacturer>Dell</manufacturer>
+			<condition>New</condition>
+			<discount>10.0</discount>
+			<accessories>
+				<accessory>club_950nc</accessory>
+				<accessory>club_700bt</accessory>
+				<accessory>wh_1000xm4</accessory>
+				<accessory>studio_3</accessory>
+				<accessory>quiet_comfort_35</accessory>
+			</accessories>
+
+		</Laptop>
+	</LaptopCatalog>
+	
+	<VoiceAssistantCatalog>
+		<VoiceAssistant id="home_mini">
+			<name>Home Mini</name>
+			<price>39.99</price>
+			<image>home_mini.jpg</image>
+			<manufacturer>Google</manufacturer>
+			<condition>New</condition>
+			<discount>10.0</discount>
+		</VoiceAssistant>
+		<VoiceAssistant id="home_max">
+			<name>Home Max</name>
+			<price>299.99</price>
+			<image>home_max.jpg</image>
+			<manufacturer>Google</manufacturer>
+			<condition>New</condition>
+			<discount>10.0</discount>
+		</VoiceAssistant>
+		<VoiceAssistant id="nest">
+			<name>Nest Hub</name>
+			<price>89.99</price>
+			<image>nest.jpg</image>
+			<manufacturer>Google</manufacturer>
+			<condition>New</condition>
+			<discount>10.0</discount>
+		</VoiceAssistant>
+		<VoiceAssistant id="echo_dot">
+			<name>Echo Dot (3rd Gen)</name>
+			<price>49.99</price>
+			<image>echo_dot.jpg</image>
+			<manufacturer>Amazon</manufacturer>
+			<condition>New</condition>
+			<discount>10.0</discount>
+		</VoiceAssistant>
+		<VoiceAssistant id="echo_studio">
+			<name>Echo Studio</name>
+			<price>199.99</price>
+			<image>echo_studio.jpg</image>
+			<manufacturer>Amazon</manufacturer>
+			<condition>New</condition>
+			<discount>10.0</discount>
+		</VoiceAssistant>
+	</VoiceAssistantCatalog>
+	
+	
+	<AccessoryCatalog>
+		<accessory id="inspire_2">
+			<type>Fitness Watch</type>
+			<name>Inspire 2</name>
+			<price>99.99</price>
+			<image>inspire_2.jpg</image>
+			<manufacturer>Fitbit</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		 </accessory>
+		 <accessory id="ace_2">
+			<type>Fitness Watch</type>
+			<name>Ace 2</name>
+			<price>69.99</price>
+			<image>ace_2.jpg</image>
+			<manufacturer>Fitbit</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		 </accessory>
+		 <accessory id="fit">
+			<type>Fitness Watch</type>
+			<name>Fit</name>
+			<price>99.99</price>
+			<image>fit.jpg</image>
+			<manufacturer>Huawei</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		 </accessory>
+		 <accessory id="gt_2_pro">
+			<type>Fitness Watch</type>
+			<name>GT 2 Pro</name>
+			<price>199.99</price>
+			<image>gt_2_pro.jpg</image>
+			<manufacturer>Huawei</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		 </accessory>
+		 <accessory id="mi_band_5">
+			<type>Fitness Watch</type>
+			<name>MI Band 5</name>
+			<price>39.99</price>
+			<image>mi_band_5.jpg</image>
+			<manufacturer>Xiaomi</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		 </accessory>
+		 <accessory id="series_5">
+			<type>Smart Watch</type>
+			<name>Series 5</name>
+			<price>299.99</price>
+			<image>series_5.jpg</image>
+			<manufacturer>Apple</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		 </accessory>
+		 <accessory id="series_3">
+			<type>Smart Watch</type>
+			<name>Series 3</name>
+			<price>169.99</price>
+			<image>series_3.jpg</image>
+			<manufacturer>Apple</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		 </accessory>
+		 <accessory id="galaxy">
+			<type>Smart Watch</type>
+			<name>Galaxy</name>
+			<price>239.99</price>
+			<image>galaxy.jpg</image>
+			<manufacturer>Samsung</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		 </accessory>
+		 <accessory id="galaxy_3">
+			<type>Smart Watch</type>
+			<name>Galaxy 3</name>
+			<price>399.99</price>
+			<image>galaxy_3.jpg</image>
+			<manufacturer>Samsung</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		 </accessory>
+		 <accessory id="gen_5">
+			<type>Smart Watch</type>
+			<name>Gen 5</name>
+			<price>299.99</price>
+			<image>gen_5.jpg</image>
+			<manufacturer>Fossil</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		 </accessory>
+		 <accessory id="club_950nc">
+			<type>Headphone</type>
+			<name>Club 950NC</name>
+			<price>249.99</price>
+			<image>club_950nc.jpg</image>
+			<manufacturer>JBL</manufacturer>
+			<condition>New</condition>
+			<discount>30.0</discount>
+		 </accessory>
+		 <accessory id="club_700bt">
+			<type>Headphone</type>
+			<name>Club 700BT</name>
+			<price>199.99</price>
+			<image>club_700bt.jpg</image>
+			<manufacturer>JBL</manufacturer>
+			<condition>New</condition>
+			<discount>30.0</discount>
+		 </accessory>
+		 <accessory id="wh_1000xm4">
+			<type>Headphone</type>
+			<name>WH-1000XM4</name>
+			<price>349.99</price>
+			<image>wh_1000xm4.jpg</image>
+			<manufacturer>Sony</manufacturer>
+			<condition>New</condition>
+			<discount>30.0</discount>
+		 </accessory>
+		 <accessory id="studio_3">
+			<type>Headphone</type>
+			<name>Studio 3</name>
+			<price>349.99</price>
+			<image>studio_3.jpg</image>
+			<manufacturer>Beats</manufacturer>
+			<condition>New</condition>
+			<discount>10.0</discount>
+		 </accessory>
+		 <accessory id="quiet_comfort_35">
+			<type>Headphone</type>
+			<name>QuietComfort 35</name>
+			<price>299.99</price>
+			<image>quiet_comfort_35.jpg</image>
+			<manufacturer>Bose</manufacturer>
+			<condition>New</condition>
+			<discount>30.0</discount>
+		 </accessory>
+		 <accessory id="gear_vr">
+			<type>Virtual Reality</type>
+			<name>Gear VR</name>
+			<price>59.99</price>
+			<image>gear_vr.jpg</image>
+			<manufacturer>Samsung</manufacturer>
+			<condition>New</condition>
+			<discount>50.0</discount>
+		 </accessory>
+		 <accessory id="rift_s">
+			<type>Virtual Reality</type>
+			<name>Rift S</name>
+			<price>399.99</price>
+			<image>rift_s.jpg</image>
+			<manufacturer>Oculus</manufacturer>
+			<condition>New</condition>
+			<discount>50.0</discount>
+		 </accessory>
+		 <accessory id="quest">
+			<type>Virtual Reality</type>
+			<name>Quest</name>
+			<price>599.99</price>
+			<image>quest.jpg</image>
+			<manufacturer>Oculus</manufacturer>
+			<condition>New</condition>
+			<discount>50.0</discount>
+		 </accessory>
+		 <accessory id="playstation_vr">
+			<type>Virtual Reality</type>
+			<name>PlayStation VR</name>
+			<price>329.99</price>
+			<image>playstation_vr.jpg</image>
+			<manufacturer>Sony</manufacturer>
+			<condition>New</condition>
+			<discount>50.0</discount>
+		 </accessory>
+		 <accessory id="vive_cosmos">
+			<type>Virtual Reality</type>
+			<name>Vive Cosmos</name>
+			<price>699.99</price>
+			<image>vive_cosmos.jpg</image>
+			<manufacturer>HTC</manufacturer>
+			<condition>New</condition>
+			<discount>50.0</discount>
+		 </accessory>
+		 <accessory id="go_explore">
+			<type>Pet Tracker</type>
+			<name>Go Explore</name>
+			<price>129.99</price>
+			<image>go_explore.jpg</image>
+			<manufacturer>whistle</manufacturer>
+			<condition>New</condition>
+			<discount>20.0</discount>
+		 </accessory>
+		 <accessory id="go">
+			<type>Pet Tracker</type>
+			<name>Go</name>
+			<price>129.99</price>
+			<image>go.jpg</image>
+			<manufacturer>whistle</manufacturer>
+			<condition>New</condition>
+			<discount>20.0</discount>
+		 </accessory>
+		 <accessory id="alpha_100">
+			<type>Pet Tracker</type>
+			<name>Alpha 100</name>
+			<price>599.99</price>
+			<image>alpha_100.jpg</image>
+			<manufacturer>Garmin</manufacturer>
+			<condition>New</condition>
+			<discount>20.0</discount>
+		 </accessory>
+		 <accessory id="tt_15">
+			<type>Pet Tracker</type>
+			<name>TT 15</name>
+			<price>699.99</price>
+			<image>tt_15.jpg</image>
+			<manufacturer>Garmin</manufacturer>
+			<condition>New</condition>
+			<discount>20.0</discount>
+		 </accessory>
+		 <accessory id="t_5">
+			<type>Pet Tracker</type>
+			<name>T 5</name>
+			<price>249.99</price>
+			<image>t_5.jpg</image>
+			<manufacturer>Garmin</manufacturer>
+			<condition>New</condition>
+			<discount>20.0</discount>
+		 </accessory>
+	</AccessoryCatalog>
+	
+</ProductCatalog>

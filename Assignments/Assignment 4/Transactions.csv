@@ -1,0 +1,4 @@
+login ID,Customer_Name,Customer_Age,Customer_Occupation,Credit Card Number,Order_ID,Order_Date,Expected_Delivery_Date,Actual_Delivery_Date,Product_ID,Product_Name,Category,Manufacturer,Review_Rating,Delivery_Tracking_ID,Delivery_Type,Delivery_Zip_Code,Transaction_Status,Order_Returned,Order_Delivered_on_Time
+jr123,"Rinkin, John",19,Student,3456-123-7279-0001,1,10/25/2020,11/2/2020,11/2/2020,xboxone,Xbox One,console,Microsoft,5,xyz1,Store pickup,60616,Approved,No,Yes
+rs234,"Smith, Rebecca",21,Salesperson,3456-123-7279-0002,2,10/26/2020,11/3/2020,11/5/2020,ps4,PS4,console,Sony,4,xyz2,Home Delivery,60604,Disputed,No,No
+ml267,"Louis, Mike",32,Electrical Engineer,3456-123-7279-0003,3,10/27/2020,11/4/2020,11/3/2020,ipad,ipad,Tablet,Apple,1,xyz3,Store pickup,60607,Approved,Yes,Yes

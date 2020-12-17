@@ -1,0 +1,294 @@
+// cyper script to create graph
+
+// delete existing graph
+match (n) detach delete n;
+
+// verify you have no nodes/relationships in your graph
+match (n) return n;
+
+// create customers
+CREATE (c1:Customer {id:'yash1', name:'yash patel', occupation:'student', age:'24', address:'abc,abc,abc,abc', credit_card_no:'12345'})
+CREATE (c2:Customer {id:'yash2', name:'yash patel', occupation:'student', age:'24', address:'abc,abc,abc,abc', credit_card_no:'12345'})
+CREATE (c3:Customer {id:'yash3', name:'yash patel', occupation:'student', age:'24', address:'abc,abc,abc,abc', credit_card_no:'12345'})
+CREATE (c4:Customer {id:'yash4', name:'yash patel', occupation:'student', age:'24', address:'abc,abc,abc,abc', credit_card_no:'12345'})
+CREATE (c5:Customer {id:'yash5', name:'yash patel', occupation:'student', age:'24', address:'abc,abc,abc,abc', credit_card_no:'12345'})
+CREATE (c6:Customer {id:'yash6', name:'yash patel', occupation:'student', age:'24', address:'abc,abc,abc,abc', credit_card_no:'12345'})
+CREATE (c7:Customer {id:'yash7', name:'yash patel', occupation:'student', age:'24', address:'abc,abc,abc,abc', credit_card_no:'12345'})
+CREATE (c8:Customer {id:'yash8', name:'yash patel', occupation:'student', age:'24', address:'abc,abc,abc,abc', credit_card_no:'12345'})
+CREATE (c9:Customer {id:'yash9', name:'yash patel', occupation:'student', age:'24', address:'abc,abc,abc,abc', credit_card_no:'12345'})
+CREATE (c10:Customer {id:'yash10', name:'yash patel', occupation:'student', age:'24', address:'abc,abc,abc,abc', credit_card_no:'12345'})
+CREATE (c11:Customer {id:'yash11', name:'yash patel', occupation:'student', age:'24', address:'abc,abc,abc,abc', credit_card_no:'12345'})
+CREATE (c12:Customer {id:'yash12', name:'yash patel', occupation:'student', age:'24', address:'abc,abc,abc,abc', credit_card_no:'12345'})
+
+// create deliveries
+CREATE (d1:Delivery {type:'home delivery'})
+CREATE (d2:Delivery {type:'store pickup'})
+
+// create delivery_zip_code
+CREATE (dzc1:DeliveryZipCode {zip:'abc'})
+CREATE (dzc2:DeliveryZipCode {zip:'53703'})
+CREATE (dzc3:DeliveryZipCode {zip:'35957'})
+CREATE (dzc4:DeliveryZipCode {zip:'1905'})
+CREATE (dzc5:DeliveryZipCode {zip:'10901'})
+CREATE (dzc6:DeliveryZipCode {zip:'6001'})
+CREATE (dzc7:DeliveryZipCode {zip:'60540'})
+CREATE (dzc8:DeliveryZipCode {zip:'95678'})
+CREATE (dzc9:DeliveryZipCode {zip:'46383'})
+CREATE (dzc10:DeliveryZipCode {zip:'77380'})
+CREATE (dzc11:DeliveryZipCode {zip:'85383'})
+
+// create manufacturers
+CREATE (m1:Manufacturer {name:'garmin'})
+CREATE (m2:Manufacturer {name:'google'})
+CREATE (m3:Manufacturer {name:'apple'})
+CREATE (m4:Manufacturer {name:'jbl'})
+CREATE (m5:Manufacturer {name:'samsung'})
+CREATE (m6:Manufacturer {name:'huawei'})
+CREATE (m7:Manufacturer {name:'sony'})
+CREATE (m8:Manufacturer {name:'amazon'})
+
+// create products
+CREATE (p1:Product {id:'alpha_100', name:'alpha_100', type:'pet tracker', price:'599.99', discount:'0'})
+CREATE (p2:Product {id:'home_mini', name:'home mini', type:'voice assistant', price:'39.99', discount:'0'})
+CREATE (p3:Product {id:'iphone_11_pro', name:'iPhone 11 Pro', type:'phone', price:'999.99', discount:'0'})
+CREATE (p4:Product {id:'bar_5.1', name:'bar 5.1', type:'sound system', price:'499.99', discount:'10'})
+CREATE (p5:Product {id:'macbook-air', name:'macbook air', type:'laptop', price:'999.99', discount:'10'})
+CREATE (p6:Product {id:'tu8000', name:'tu8000', type:'tv', price:'349.99', discount:'10'})
+CREATE (p7:Product {id:'fit', name:'fit', type:'fitness watch', price:'99.99', discount:'40'})
+CREATE (p8:Product {id:'playstation_vr', name:'playstation vr', type:'vr', price:'699.99', discount:'50'})
+CREATE (p9:Product {id:'series_5', name:'series 5', type:'smart watch', price:'299.99', discount:'40'})
+CREATE (p10:Product {id:'wh_1000xm4', name:'wh 1000xm4', type:'headphone', price:'399.99', discount:'30'})
+CREATE (p11:Product {id:'t_5', name:'t 5', type:'pet tracker', price:'249.99', discount:'20'})
+CREATE (p12:Product {id:'echo_dot', name:'echo dot', type:'voice assistant', price:'49.99', discount:'10'})
+CREATE (p13:Product {id:'q70t', name:'q70t', type:'tv', price:'2699.99', discount:'10'})
+CREATE (p14:Product {id:'nest', name:'nest', type:'voice assistant', price:'89.99', discount:'10'})
+CREATE (p15:Product {id:'p30_pro', name:'p30 pro', type:'phone', price:'799.99', discount:'10'})
+CREATE (p16:Product {id:'galaxy', name:'galaxy', type:'smart watch', price:'239.99', discount:'40'})
+
+// create orders
+CREATE (o1:Order {id:'1', ship_date:'10-16-2020', actual_ship_date:'10-16-2020', tracking_id:'xyz1', transaction_statue:'approved', is_delivered_on_time:'1'})
+CREATE (o2:Order {id:'2', ship_date:'10-16-2020', actual_ship_date:'10-17-2020', tracking_id:'xyz2', transaction_statue:'disputed', is_delivered_on_time:'0'})
+CREATE (o3:Order {id:'3', ship_date:'10-16-2020', actual_ship_date:'10-16-2020', tracking_id:'xyz3', transaction_statue:'disputed', is_delivered_on_time:'1'})
+CREATE (o4:Order {id:'4', ship_date:'10-16-2020', actual_ship_date:'10-17-2020', tracking_id:'xyz4', transaction_statue:'approved', is_delivered_on_time:'0'})
+CREATE (o5:Order {id:'5', ship_date:'10-16-2020', actual_ship_date:'10-16-2020', tracking_id:'xyz5', transaction_statue:'disputed', is_delivered_on_time:'1'})
+CREATE (o6:Order {id:'6', ship_date:'10-24-2020', actual_ship_date:'10-25-2020', tracking_id:'xyz6', transaction_statue:'approved', is_delivered_on_time:'0'})
+CREATE (o7:Order {id:'7', ship_date:'10-25-2020', actual_ship_date:'10-25-2020', tracking_id:'xyz7', transaction_statue:'approved', is_delivered_on_time:'1'})
+CREATE (o8:Order {id:'8', ship_date:'10-25-2020', actual_ship_date:'10-26-2020', tracking_id:'xyz8', transaction_statue:'disputed', is_delivered_on_time:'0'})
+CREATE (o9:Order {id:'9', ship_date:'10-25-2020', actual_ship_date:'10-25-2020', tracking_id:'xyz9', transaction_statue:'disputed', is_delivered_on_time:'1'})
+CREATE (o10:Order {id:'10', ship_date:'10-25-2020', actual_ship_date:'10-26-2020', tracking_id:'xyz10', transaction_statue:'approved', is_delivered_on_time:'0'})
+CREATE (o11:Order {id:'11', ship_date:'10-25-2020', actual_ship_date:'10-25-2020', tracking_id:'xyz11', transaction_statue:'approved', is_delivered_on_time:'1'})
+CREATE (o12:Order {id:'12', ship_date:'10-25-2020', actual_ship_date:'10-26-2020', tracking_id:'xyz12', transaction_statue:'disputed', is_delivered_on_time:'0'})
+CREATE (o13:Order {id:'13', ship_date:'10-25-2020', actual_ship_date:'10-25-2020', tracking_id:'xyz13', transaction_statue:'disputed', is_delivered_on_time:'1'})
+CREATE (o14:Order {id:'14', ship_date:'10-25-2020', actual_ship_date:'10-26-2020', tracking_id:'xyz14', transaction_statue:'approved', is_delivered_on_time:'0'})
+CREATE (o15:Order {id:'15', ship_date:'10-25-2020', actual_ship_date:'10-25-2020', tracking_id:'xyz15', transaction_statue:'disputed', is_delivered_on_time:'1'})
+CREATE (o16:Order {id:'16', ship_date:'10-25-2020', actual_ship_date:'10-26-2020', tracking_id:'xyz16', transaction_statue:'disputed', is_delivered_on_time:'0'})
+CREATE (o17:Order {id:'17', ship_date:'10-25-2020', actual_ship_date:'10-25-2020', tracking_id:'xyz17', transaction_statue:'approved', is_delivered_on_time:'1'})
+CREATE (o18:Order {id:'18', ship_date:'10-25-2020', actual_ship_date:'10-26-2020', tracking_id:'xyz18', transaction_statue:'disputed', is_delivered_on_time:'0'})
+CREATE (o19:Order {id:'19', ship_date:'10-25-2020', actual_ship_date:'10-25-2020', tracking_id:'xyz19', transaction_statue:'approved', is_delivered_on_time:'1'})
+CREATE (o20:Order {id:'20', ship_date:'10-25-2020', actual_ship_date:'10-26-2020', tracking_id:'xyz20', transaction_statue:'approved', is_delivered_on_time:'0'})
+CREATE (o21:Order {id:'21', ship_date:'10-25-2020', actual_ship_date:'10-25-2020', tracking_id:'xyz21', transaction_statue:'approved', is_delivered_on_time:'1'})
+CREATE (o22:Order {id:'22', ship_date:'10-25-2020', actual_ship_date:'10-26-2020', tracking_id:'xyz22', transaction_statue:'disputed', is_delivered_on_time:'0'})
+CREATE (o23:Order {id:'23', ship_date:'10-25-2020', actual_ship_date:'10-25-2020', tracking_id:'xyz23', transaction_statue:'disputed', is_delivered_on_time:'1'})
+CREATE (o24:Order {id:'24', ship_date:'10-25-2020', actual_ship_date:'10-26-2020', tracking_id:'xyz24', transaction_statue:'approved', is_delivered_on_time:'0'})
+CREATE (o25:Order {id:'25', ship_date:'10-25-2020', actual_ship_date:'10-25-2020', tracking_id:'xyz25', transaction_statue:'disputed', is_delivered_on_time:'1'})
+CREATE (o26:Order {id:'26', ship_date:'10-25-2020', actual_ship_date:'10-26-2020', tracking_id:'xyz26', transaction_statue:'disputed', is_delivered_on_time:'0'})
+CREATE (o27:Order {id:'27', ship_date:'10-25-2020', actual_ship_date:'10-25-2020', tracking_id:'xyz27', transaction_statue:'approved', is_delivered_on_time:'1'})
+CREATE (o28:Order {id:'28', ship_date:'10-25-2020', actual_ship_date:'10-26-2020', tracking_id:'xyz28', transaction_statue:'approved', is_delivered_on_time:'0'})
+CREATE (o29:Order {id:'29', ship_date:'10-25-2020', actual_ship_date:'10-25-2020', tracking_id:'xyz29', transaction_statue:'disputed', is_delivered_on_time:'1'})
+CREATE (o30:Order {id:'30', ship_date:'10-25-2020', actual_ship_date:'10-26-2020', tracking_id:'xyz30', transaction_statue:'approved', is_delivered_on_time:'0'})
+
+// create manufactures relationship
+CREATE (m1)-[:MANUFACTURES]->(p1)
+CREATE (m2)-[:MANUFACTURES]->(p2)
+CREATE (m3)-[:MANUFACTURES]->(p3)
+CREATE (m4)-[:MANUFACTURES]->(p4)
+CREATE (m3)-[:MANUFACTURES]->(p5)
+CREATE (m5)-[:MANUFACTURES]->(p6)
+CREATE (m6)-[:MANUFACTURES]->(p7)
+CREATE (m7)-[:MANUFACTURES]->(p8)
+CREATE (m3)-[:MANUFACTURES]->(p9)
+CREATE (m7)-[:MANUFACTURES]->(p10)
+CREATE (m1)-[:MANUFACTURES]->(p11)
+CREATE (m8)-[:MANUFACTURES]->(p12)
+CREATE (m5)-[:MANUFACTURES]->(p13)
+CREATE (m2)-[:MANUFACTURES]->(p14)
+CREATE (m6)-[:MANUFACTURES]->(p15)
+CREATE (m5)-[:MANUFACTURES]->(p16)
+
+// create has_delivery_type relationship
+CREATE (o1)-[:HAS_DELIVERY_TYPE]->(d1)
+CREATE (o2)-[:HAS_DELIVERY_TYPE]->(d2)
+CREATE (o3)-[:HAS_DELIVERY_TYPE]->(d1)
+CREATE (o4)-[:HAS_DELIVERY_TYPE]->(d2)
+CREATE (o5)-[:HAS_DELIVERY_TYPE]->(d1)
+CREATE (o6)-[:HAS_DELIVERY_TYPE]->(d1)
+CREATE (o7)-[:HAS_DELIVERY_TYPE]->(d1)
+CREATE (o8)-[:HAS_DELIVERY_TYPE]->(d2)
+CREATE (o9)-[:HAS_DELIVERY_TYPE]->(d1)
+CREATE (o10)-[:HAS_DELIVERY_TYPE]->(d2)
+CREATE (o11)-[:HAS_DELIVERY_TYPE]->(d1)
+CREATE (o12)-[:HAS_DELIVERY_TYPE]->(d2)
+CREATE (o13)-[:HAS_DELIVERY_TYPE]->(d2)
+CREATE (o14)-[:HAS_DELIVERY_TYPE]->(d1)
+CREATE (o15)-[:HAS_DELIVERY_TYPE]->(d1)
+CREATE (o16)-[:HAS_DELIVERY_TYPE]->(d2)
+CREATE (o17)-[:HAS_DELIVERY_TYPE]->(d2)
+CREATE (o18)-[:HAS_DELIVERY_TYPE]->(d1)
+CREATE (o19)-[:HAS_DELIVERY_TYPE]->(d1)
+CREATE (o20)-[:HAS_DELIVERY_TYPE]->(d2)
+CREATE (o21)-[:HAS_DELIVERY_TYPE]->(d2)
+CREATE (o22)-[:HAS_DELIVERY_TYPE]->(d1)
+CREATE (o23)-[:HAS_DELIVERY_TYPE]->(d1)
+CREATE (o24)-[:HAS_DELIVERY_TYPE]->(d2)
+CREATE (o25)-[:HAS_DELIVERY_TYPE]->(d2)
+CREATE (o26)-[:HAS_DELIVERY_TYPE]->(d1)
+CREATE (o27)-[:HAS_DELIVERY_TYPE]->(d1)
+CREATE (o28)-[:HAS_DELIVERY_TYPE]->(d2)
+CREATE (o29)-[:HAS_DELIVERY_TYPE]->(d2)
+CREATE (o30)-[:HAS_DELIVERY_TYPE]->(d1)
+
+// create deliveres_at relationship
+CREATE (o1)-[:DELIVERSE_AT]->(dzc1)
+CREATE (o2)-[:DELIVERSE_AT]->(dzc2)
+CREATE (o3)-[:DELIVERSE_AT]->(dzc1)
+CREATE (o4)-[:DELIVERSE_AT]->(dzc3)
+CREATE (o5)-[:DELIVERSE_AT]->(dzc1)
+CREATE (o6)-[:DELIVERSE_AT]->(dzc1)
+CREATE (o7)-[:DELIVERSE_AT]->(dzc1)
+CREATE (o8)-[:DELIVERSE_AT]->(dzc4)
+CREATE (o9)-[:DELIVERSE_AT]->(dzc1)
+CREATE (o10)-[:DELIVERSE_AT]->(dzc5)
+CREATE (o11)-[:DELIVERSE_AT]->(dzc1)
+CREATE (o12)-[:DELIVERSE_AT]->(dzc6)
+CREATE (o13)-[:DELIVERSE_AT]->(dzc3)
+CREATE (o14)-[:DELIVERSE_AT]->(dzc1)
+CREATE (o15)-[:DELIVERSE_AT]->(dzc1)
+CREATE (o16)-[:DELIVERSE_AT]->(dzc7)
+CREATE (o17)-[:DELIVERSE_AT]->(dzc8)
+CREATE (o18)-[:DELIVERSE_AT]->(dzc1)
+CREATE (o19)-[:DELIVERSE_AT]->(dzc1)
+CREATE (o20)-[:DELIVERSE_AT]->(dzc9)
+CREATE (o21)-[:DELIVERSE_AT]->(dzc10)
+CREATE (o22)-[:DELIVERSE_AT]->(dzc1)
+CREATE (o23)-[:DELIVERSE_AT]->(dzc1)
+CREATE (o24)-[:DELIVERSE_AT]->(dzc11)
+CREATE (o25)-[:DELIVERSE_AT]->(dzc2)
+CREATE (o26)-[:DELIVERSE_AT]->(dzc1)
+CREATE (o27)-[:DELIVERSE_AT]->(dzc1)
+CREATE (o28)-[:DELIVERSE_AT]->(dzc4)
+CREATE (o29)-[:DELIVERSE_AT]->(dzc5)
+CREATE (o30)-[:DELIVERSE_AT]->(dzc1)
+
+// create placed_order relationship
+CREATE (c1)-[:PLACED_ORDER {purchase_date:'10-02-2020'}]->(o1)
+CREATE (c1)-[:PLACED_ORDER {purchase_date:'10-02-2020'}]->(o2)
+CREATE (c2)-[:PLACED_ORDER {purchase_date:'10-02-2020'}]->(o3)
+CREATE (c1)-[:PLACED_ORDER {purchase_date:'10-02-2020'}]->(o4)
+CREATE (c1)-[:PLACED_ORDER {purchase_date:'10-02-2020'}]->(o5)
+CREATE (c1)-[:PLACED_ORDER {purchase_date:'10-10-2020'}]->(o6)
+CREATE (c1)-[:PLACED_ORDER {purchase_date:'10-11-2020'}]->(o7)
+CREATE (c1)-[:PLACED_ORDER {purchase_date:'10-11-2020'}]->(o8)
+CREATE (c2)-[:PLACED_ORDER {purchase_date:'10-11-2020'}]->(o9)
+CREATE (c2)-[:PLACED_ORDER {purchase_date:'10-11-2020'}]->(o10)
+CREATE (c3)-[:PLACED_ORDER {purchase_date:'10-11-2020'}]->(o11)
+CREATE (c3)-[:PLACED_ORDER {purchase_date:'10-11-2020'}]->(o12)
+CREATE (c4)-[:PLACED_ORDER {purchase_date:'10-11-2020'}]->(o13)
+CREATE (c4)-[:PLACED_ORDER {purchase_date:'10-11-2020'}]->(o14)
+CREATE (c5)-[:PLACED_ORDER {purchase_date:'10-11-2020'}]->(o15)
+CREATE (c5)-[:PLACED_ORDER {purchase_date:'10-11-2020'}]->(o16)
+CREATE (c6)-[:PLACED_ORDER {purchase_date:'10-11-2020'}]->(o17)
+CREATE (c6)-[:PLACED_ORDER {purchase_date:'10-11-2020'}]->(o18)
+CREATE (c7)-[:PLACED_ORDER {purchase_date:'10-11-2020'}]->(o19)
+CREATE (c7)-[:PLACED_ORDER {purchase_date:'10-11-2020'}]->(o20)
+CREATE (c8)-[:PLACED_ORDER {purchase_date:'10-11-2020'}]->(o21)
+CREATE (c8)-[:PLACED_ORDER {purchase_date:'10-11-2020'}]->(o22)
+CREATE (c9)-[:PLACED_ORDER {purchase_date:'10-11-2020'}]->(o23)
+CREATE (c9)-[:PLACED_ORDER {purchase_date:'10-11-2020'}]->(o24)
+CREATE (c10)-[:PLACED_ORDER {purchase_date:'10-11-2020'}]->(o25)
+CREATE (c10)-[:PLACED_ORDER {purchase_date:'10-11-2020'}]->(o26)
+CREATE (c11)-[:PLACED_ORDER {purchase_date:'10-11-2020'}]->(o27)
+CREATE (c11)-[:PLACED_ORDER {purchase_date:'10-11-2020'}]->(o28)
+CREATE (c12)-[:PLACED_ORDER {purchase_date:'10-11-2020'}]->(o29)
+CREATE (c12)-[:PLACED_ORDER {purchase_date:'10-11-2020'}]->(o30)
+
+// create has_item relationship
+CREATE (o1)-[:HAS_ITEM {quentity:'1', total_sales:'484.992', review_rating:'1', is_cancelled:'1', is_returned:'1'}]->(p1)
+CREATE (o1)-[:HAS_ITEM {quentity:'3', total_sales:'122.973', review_rating:'1', is_cancelled:'1', is_returned:'1'}]->(p2)
+CREATE (o2)-[:HAS_ITEM {quentity:'2', total_sales:'909.9820000000001', review_rating:'1', is_cancelled:'1', is_returned:'1'}]->(p4)
+CREATE (o2)-[:HAS_ITEM {quentity:'5', total_sales:'2714.973', review_rating:'1', is_cancelled:'1', is_returned:'1'}]->(p5)
+CREATE (o3)-[:HAS_ITEM {quentity:'1', total_sales:'64.994', review_rating:'1', is_cancelled:'1', is_returned:'1'}]->(p7)
+CREATE (o3)-[:HAS_ITEM {quentity:'1', total_sales:'354.995', review_rating:'1', is_cancelled:'1', is_returned:'0'}]->(p8)
+CREATE (o4)-[:HAS_ITEM {quentity:'1', total_sales:'184.994', review_rating:'2', is_cancelled:'0', is_returned:'0'}]->(p9)
+CREATE (o4)-[:HAS_ITEM {quentity:'1', total_sales:'284.993', review_rating:'2', is_cancelled:'0', is_returned:'0'}]->(p10)
+CREATE (o5)-[:HAS_ITEM {quentity:'1', total_sales:'184.994', review_rating:'1', is_cancelled:'1', is_returned:'1'}]->(p9)
+CREATE (o5)-[:HAS_ITEM {quentity:'1', total_sales:'204.99200000000002', review_rating:'1', is_cancelled:'1', is_returned:'0'}]->(p11)
+CREATE (o6)-[:HAS_ITEM {quentity:'1', total_sales:'40.991', review_rating:'1', is_cancelled:'1', is_returned:'1'}]->(p2)
+CREATE (o7)-[:HAS_ITEM {quentity:'2', total_sales:'99.982', review_rating:'0', is_cancelled:'0', is_returned:'0'}]->(p12)
+CREATE (o8)-[:HAS_ITEM {quentity:'1', total_sales:'2434.991', review_rating:'0', is_cancelled:'0', is_returned:'1'}]->(p13)
+CREATE (o9)-[:HAS_ITEM {quentity:'1', total_sales:'319.99100000000004', review_rating:'0', is_cancelled:'0', is_returned:'0'}]->(p6)
+CREATE (o10)-[:HAS_ITEM {quentity:'3', total_sales:'257.973', review_rating:'1', is_cancelled:'0', is_returned:'1'}]->(p14)
+CREATE (o11)-[:HAS_ITEM {quentity:'2', total_sales:'1809.982', review_rating:'0', is_cancelled:'0', is_returned:'0'}]->(p3)
+CREATE (o12)-[:HAS_ITEM {quentity:'2', total_sales:'369.988', review_rating:'1', is_cancelled:'0', is_returned:'1'}]->(p9)
+CREATE (o13)-[:HAS_ITEM {quentity:'1', total_sales:'724.991', review_rating:'2', is_cancelled:'0', is_returned:'0'}]->(p15)
+CREATE (o14)-[:HAS_ITEM {quentity:'1', total_sales:'148.994', review_rating:'1', is_cancelled:'0', is_returned:'1'}]->(p16)
+CREATE (o15)-[:HAS_ITEM {quentity:'1', total_sales:'204.99200000000002', review_rating:'0', is_cancelled:'0', is_returned:'1'}]->(p11)
+CREATE (o16)-[:HAS_ITEM {quentity:'1', total_sales:'454.99100000000004', review_rating:'2', is_cancelled:'0', is_returned:'0'}]->(p4)
+CREATE (o17)-[:HAS_ITEM {quentity:'1', total_sales:'204.99200000000002', review_rating:'3', is_cancelled:'0', is_returned:'0'}]->(p11)
+CREATE (o18)-[:HAS_ITEM {quentity:'1', total_sales:'454.99100000000004', review_rating:'0', is_cancelled:'0', is_returned:'1'}]->(p4)
+CREATE (o19)-[:HAS_ITEM {quentity:'1', total_sales:'354.995', review_rating:'0', is_cancelled:'0', is_returned:'0'}]->(p8)
+CREATE (o20)-[:HAS_ITEM {quentity:'1', total_sales:'904.991', review_rating:'3', is_cancelled:'0', is_returned:'1'}]->(p5)
+CREATE (o21)-[:HAS_ITEM {quentity:'1', total_sales:'354.995', review_rating:'4', is_cancelled:'0', is_returned:'0'}]->(p8)
+CREATE (o22)-[:HAS_ITEM {quentity:'1', total_sales:'904.991', review_rating:'1', is_cancelled:'0', is_returned:'1'}]->(p5)
+CREATE (o23)-[:HAS_ITEM {quentity:'1', total_sales:'64.994', review_rating:'0', is_cancelled:'0', is_returned:'0'}]->(p7)
+CREATE (o24)-[:HAS_ITEM {quentity:'1', total_sales:'284.993', review_rating:'4', is_cancelled:'0', is_returned:'0'}]->(p10)
+CREATE (o25)-[:HAS_ITEM {quentity:'1', total_sales:'64.994', review_rating:'5', is_cancelled:'0', is_returned:'0'}]->(p7)
+CREATE (o26)-[:HAS_ITEM {quentity:'1', total_sales:'284.993', review_rating:'0', is_cancelled:'0', is_returned:'0'}]->(p10)
+CREATE (o27)-[:HAS_ITEM {quentity:'1', total_sales:'40.991', review_rating:'1', is_cancelled:'0', is_returned:'1'}]->(p2)
+CREATE (o28)-[:HAS_ITEM {quentity:'1', total_sales:'319.99100000000004', review_rating:'0', is_cancelled:'0', is_returned:'0'}]->(p6)
+CREATE (o29)-[:HAS_ITEM {quentity:'1', total_sales:'40.991', review_rating:'1', is_cancelled:'0', is_returned:'1'}]->(p2)
+CREATE (o30)-[:HAS_ITEM {quentity:'1', total_sales:'319.99100000000004', review_rating:'0', is_cancelled:'0', is_returned:'0'}]->(p6)
+
+RETURN *
+
+// cypher script to run query
+
+// 1
+match (o:Order)-[da:DELIVERSE_AT]->(dzc) 
+where o.is_delivered_on_time='0' 
+with o, dzc, da 
+return distinct dzc.zip as `delivery_zip_code`, count(distinct da) as `number_of_orders_that_were_not_delivered_on_time` 
+order by `number_of_orders_that_were_not_delivered_on_time` desc 
+
+// 2
+match (o:Order)-[da:DELIVERSE_AT]->(dzc) 
+where o.transaction_statue='disputed' 
+match (c)-[po:PLACED_ORDER]->(o) 
+with o, dzc, da, c 
+return dzc.zip as `delivery_zip_code`, count(distinct da) as `number_of_disputed_orders`, collect(distinct c.id) as `userid`, collect(distinct c.name) as `customer_name` 
+order by `number_of_disputed_orders` desc
+
+// 3
+match (c:Customer)-[po:PLACED_ORDER]->(o) 
+where o.transaction_statue='disputed' 
+with c, count(*) as `number_of_disputed_orders`
+where `number_of_disputed_orders` > 1 
+return c.id as `userid`, c.name as `customer_name`, `number_of_disputed_orders`
+order by `number_of_disputed_orders` desc 
+
+// 4
+match (o:Order)-[hi:HAS_ITEM]->(p)
+where hi.is_returned='1' 
+match (c:Customer)-[po:PLACED_ORDER]->(o)
+with c, count(*) as `number_of_returned_orders`
+where `number_of_returned_orders` > 0
+with c, `number_of_returned_orders` 
+order by `number_of_returned_orders` desc limit 3
+return c.id as `userid`, c.name as `customer_name`, `number_of_returned_orders`
+
+// 5
+match (o:Order)-[hi:HAS_ITEM]->(p) 
+where hi.is_returned='1' and hi.review_rating='1' 
+match (o)-[da:DELIVERSE_AT]->(dzc)
+with o, p, hi, dzc, da 
+return distinct dzc.zip as `delivery_zip_code`, p.type as `product_category`, collect(distinct p.name) as `product_name`, count(distinct hi) as `number_of_returned_orders`
+order by `delivery_zip_code`

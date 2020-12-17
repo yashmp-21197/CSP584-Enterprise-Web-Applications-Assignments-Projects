@@ -1,0 +1,59 @@
+user_age,product_id,title,user_gender,manufacturer_name,store_state,product_onsale,manufacturer_rebate,user_id,store_zip,product_name,user_occupation,review_rating,review_date,store_city,review_text,product_category,_id,product_price,store_id
+24,home_mini,myReviews,M,google,MA,yes,10.0,yash1,1905,home mini,student,1,10-09-2020,Lynn,abc,voice assistant,5f810ca708c4834ae0225a29,39.99,1
+30,home_mini,myReviews,M,google,WI,yes,10.0,yash1,53703,home mini,developer,4,10-09-2020,Madison,xyz,voice assistant,5f810cd508c4834ae0225a2b,39.99,10
+24,wh_1000xm4,myReviews,M,sony,CT,yes,30.0,yash1,6001,wh 1000xm4,student,1,10-09-2020,Avon,good,headphone,5f812fad08c4834ae0225a3f,399.99,3
+24,home_mini,myReviews,M,google,CT,yes,10.0,yash1,6001,home mini,student,1,10-10-2020,Avon,very good,voice assistant,5f821bf608c4833bec531da8,39.99,3
+24,home_mini,myReviews,M,google,CA,yes,10.0,yash1,95678,home mini,student,5,10-11-2020,Roseville,very good,voice assistant,5f83826f08c483230c5d9d64,39.99,6
+24,echo_dot,myReviews,M,amazon,IN,yes,10.0,yash1,46383,echo dot,student,4,10-11-2020,Valparaiso,test,voice assistant,5f83828e08c483230c5d9d69,49.99,7
+24,iphone_11_pro,myReviews,M,apple,CT,yes,10.0,yash1,6001,iPhone 11 Pro,student,3,10-11-2020,Avon,test,phone,5f8382bd08c483230c5d9d6e,999.99,3
+24,quest,myReviews,M,oculus,MA,yes,50.0,yash1,1905,quest,student,5,10-11-2020,Lynn,best,vr,5f8382d908c483230c5d9d73,599.99,1
+24,inspire_2,myReviews,M,fitbit,AL,yes,40.0,yash1,35957,inspire 2,student,3,10-11-2020,Boaz,average,fitness watch,5f83830408c483230c5d9d78,99.99,4
+24,macbook-air,myReviews,M,apple,NY,yes,10.0,yash1,10901,macbook air,student,5,10-11-2020,Airmont,good,laptop,5f83833208c483230c5d9d7d,999.99,2
+24,macbook-air,myReviews,M,apple,AL,yes,10.0,yash1,35957,macbook air,student,2,10-11-2020,Boaz,bad,laptop,5f8383aa08c483230c5d9d82,999.99,4
+24,echo_dot,myReviews,M,amazon,MA,yes,10.0,yash1,1905,echo dot,student,5,10-11-2020,Lynn,good,voice assistant,5f8399da08c4832aa08a8dc6,49.99,1
+24,q70t,myReviews,M,samsung,MA,yes,10.0,yash1,1905,q70t,student,3,10-11-2020,Lynn,test,tv,5f8399ef08c4832aa08a8dc8,2699.99,1
+24,nest,myReviews,M,google,NY,yes,10.0,yash2,10901,nest,student,2,10-11-2020,Airmont,test,voice assistant,5f839a6908c4832aa08a8dca,89.99,2
+24,tu8000,myReviews,M,samsung,NY,yes,10.0,yash2,10901,tu8000,student,4,10-11-2020,Airmont,avg,tv,5f839a8708c4832aa08a8dcc,349.99,2
+24,iphone_11_pro,myReviews,M,apple,CT,yes,10.0,yash3,6001,iPhone 11 Pro,student,4,10-11-2020,Avon,good,phone,5f839b0e08c4832aa08a8dce,999.99,3
+24,iphone_11_pro,myReviews,M,apple,CT,yes,10.0,yash3,6001,iPhone 11 Pro,student,4,10-11-2020,Avon,good,phone,5f839b0e08c4832aa08a8dd0,999.99,3
+24,series_5,myReviews,M,apple,CT,yes,40.0,yash3,6001,series 5,student,5,10-11-2020,Avon,test,smart watch,5f839b2308c4832aa08a8dd2,299.99,3
+24,p30_pro,myReviews,M,huawei,AL,yes,10.0,yash4,35957,p30 pro,student,2,10-11-2020,Boaz,bad,phone,5f839b7a08c4832aa08a8dd4,799.99,4
+24,galaxy,myReviews,M,samsung,AL,yes,40.0,yash4,35957,galaxy,student,5,10-11-2020,Boaz,good,smart watch,5f839b8c08c4832aa08a8dd6,239.99,4
+24,t_5,myReviews,M,garmin,IL,yes,20.0,yash5,60540,t 5,student,5,10-11-2020,Naperville,good,pet tracker,5f839bdd08c4832aa08a8dd9,249.99,5
+24,bar_5.1,myReviews,M,jbl,IL,yes,10.0,yash5,60540,bar 5.1,student,5,10-11-2020,Naperville,good,sound system,5f839c2808c4832aa08a8ddb,499.99,5
+24,t_5,myReviews,M,garmin,CA,yes,20.0,yash6,95678,t 5,student,3,10-11-2020,Roseville,avg,pet tracker,5f839c6508c4832aa08a8ddd,249.99,6
+24,bar_5.1,myReviews,M,jbl,CA,yes,10.0,yash6,95678,bar 5.1,student,2,10-11-2020,Roseville,bad,sound system,5f839c8808c4832aa08a8ddf,499.99,6
+24,playstation_vr,myReviews,M,sony,IN,yes,50.0,yash7,46383,playstation vr,student,5,10-11-2020,Valparaiso,good,vr,5f839cc608c4832aa08a8de1,699.99,7
+24,macbook-air,myReviews,M,apple,IN,yes,10.0,yash7,46383,macbook air,student,3,10-11-2020,Valparaiso,avg,laptop,5f839d0008c4832aa08a8de3,999.99,7
+24,playstation_vr,myReviews,M,sony,TX,yes,50.0,yash8,77380,playstation vr,student,1,10-11-2020,Dr Spring,bad,vr,5f839d3c08c4832aa08a8de6,699.99,8
+24,macbook-air,myReviews,M,apple,TX,yes,10.0,yash8,77380,macbook air,student,1,10-11-2020,Dr Spring,bad,laptop,5f839d5f08c4832aa08a8de8,999.99,8
+24,fit,myReviews,M,huawei,AZ,yes,40.0,yash9,85382,fit,student,2,10-11-2020,Peoria,bad,fitness watch,5f839d9708c4832aa08a8dea,99.99,9
+24,wh_1000xm4,myReviews,M,sony,AZ,yes,30.0,yash9,85382,wh 1000xm4,student,4,10-11-2020,Peoria,good,headphone,5f839dc108c4832aa08a8dec,399.99,9
+24,fit,myReviews,M,huawei,WI,yes,40.0,yash10,53703,fit,student,3,10-11-2020,Madison,avg,fitness watch,5f839df808c4832aa08a8dee,99.99,10
+24,wh_1000xm4,myReviews,M,sony,WI,yes,30.0,yash10,53703,wh 1000xm4,student,2,10-11-2020,Madison,bad,headphone,5f839e1908c4832aa08a8df0,399.99,10
+24,home_mini,myReviews,M,google,MA,yes,10.0,yash11,1905,home mini,student,5,10-11-2020,Lynn,good,voice assistant,5f839e5a08c4832aa08a8df2,39.99,1
+24,tu8000,myReviews,M,samsung,MA,yes,10.0,yash11,1905,tu8000,student,5,10-11-2020,Lynn,good,tv,5f839e8a08c4832aa08a8df4,349.99,1
+24,home_mini,myReviews,M,google,NY,yes,10.0,yash12,10901,home mini,student,4,10-11-2020,Airmont,good,voice assistant,5f839eb808c4832aa08a8df6,39.99,2
+24,tu8000,myReviews,M,samsung,NY,yes,10.0,yash12,10901,tu8000,student,3,10-11-2020,Airmont,avg,tv,5f839ed808c4832aa08a8df8,349.99,2
+24,iphone_11_pro,myReviews,M,apple,CT,yes,10.0,yash13,6001,iPhone 11 Pro,student,4,10-11-2020,Avon,good,phone,5f839f1308c4832aa08a8dfa,999.99,3
+24,series_5,myReviews,M,apple,CT,yes,40.0,yash13,6001,series 5,student,1,10-11-2020,Avon,bad,smart watch,5f839f3b08c4832aa08a8dfc,299.99,3
+24,iphone_11_pro,myReviews,M,apple,AL,yes,10.0,yash14,35957,iPhone 11 Pro,student,4,10-11-2020,Boaz,GOOD,phone,5f839f7208c4832aa08a8dfe,999.99,4
+24,series_5,myReviews,M,apple,AL,yes,40.0,yash14,35957,series 5,student,3,10-11-2020,Boaz,avg,smart watch,5f839f9c08c4832aa08a8e00,299.99,4
+24,t_5,myReviews,M,garmin,IL,yes,20.0,yash15,60540,t 5,student,3,10-11-2020,Naperville,avg,pet tracker,5f839fe908c4832aa08a8e02,249.99,5
+24,bar_5.1,myReviews,M,jbl,IL,yes,10.0,yash15,60540,bar 5.1,student,5,10-11-2020,Naperville,good,sound system,5f83a00b08c4832aa08a8e04,499.99,5
+24,t_5,myReviews,M,garmin,CA,yes,20.0,yash16,95678,t 5,student,2,10-11-2020,Roseville,bad,pet tracker,5f83a03e08c4832aa08a8e06,249.99,6
+24,bar_5.1,myReviews,M,jbl,CA,yes,10.0,yash16,95678,bar 5.1,student,1,10-11-2020,Roseville,bad,sound system,5f83a05d08c4832aa08a8e08,499.99,6
+24,playstation_vr,myReviews,M,sony,IN,yes,50.0,yash17,46383,playstation vr,student,1,10-11-2020,Valparaiso,bad,vr,5f83a0a008c4832aa08a8e0a,699.99,7
+24,macbook-air,myReviews,M,apple,IN,yes,10.0,yash17,46383,macbook air,student,5,10-11-2020,Valparaiso,good,laptop,5f83a0d408c4832aa08a8e0c,999.99,7
+24,playstation_vr,myReviews,M,sony,TX,yes,50.0,yash18,77380,playstation vr,student,4,10-11-2020,Dr Spring,good,vr,5f83a10108c4832aa08a8e0e,699.99,8
+24,macbook-air,myReviews,M,apple,TX,yes,10.0,yash18,77380,macbook air,student,2,10-11-2020,Dr Spring,bad,laptop,5f83a12108c4832aa08a8e10,999.99,8
+24,fit,myReviews,M,huawei,AZ,yes,40.0,yash19,85382,fit,student,4,10-11-2020,Peoria,good,fitness watch,5f83a16608c4832aa08a8e12,99.99,9
+24,wh_1000xm4,myReviews,M,sony,AZ,yes,30.0,yash19,85382,wh 1000xm4,student,2,10-11-2020,Peoria,bad,headphone,5f83a18d08c4832aa08a8e14,399.99,9
+24,fit,myReviews,M,huawei,WI,yes,40.0,yash20,53703,fit,student,1,10-11-2020,Madison,bad,fitness watch,5f83a1c208c4832aa08a8e16,99.99,10
+24,wh_1000xm4,myReviews,M,sony,WI,yes,30.0,yash20,53703,wh 1000xm4,student,4,10-11-2020,Madison,good,headphone,5f83a1ea08c4832aa08a8e18,399.99,10
+24,home_max,myReviews,M,google,MA,yes,10.0,yash1,1905,home max,student,5,10-11-2020,Lynn,good,voice assistant,5f83bfe24d4ff01074074d20,299.99,1
+24,home_mini,myReviews,M,google,MA,yes,10.0,yash23,1905,home mini,student,2,10-11-2020,Lynn,bad,voice assistant,5f83c5c54d4ff01074074d27,39.99,1
+30,home_mini,myReviews,M,google,MA,yes,10.0,yash1,1905,home mini,student,5,10-11-2020,Lynn,good,voice assistant,5f83d2074d4ff01074074d2e,39.99,1
+24,home_mini,myReviews,M,google,MA,yes,0.0,yash1,1905,home mini,student,5,10-23-2020,Lynn,good,voice assistant,5f933eeb08c4833eecbf52f7,39.99,1
+24,a9g,myReviews,M,sony,MA,yes,0.0,yash1,1905,a9g,student,1,10-23-2020,Lynn,bad,tv,5f933fbf08c4833eecbf52fa,2299.99,1
+24,gen_5,myReviews,M,fossil,TX,no,40.0,yash1,77380,gen 5,student,3,10-23-2020,Dr Spring,avg,smart watch,5f933ff508c4833eecbf52fd,299.99,8
